@@ -1,0 +1,88 @@
+{
+  "holdings": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "valueNOK": 280000,
+      "sector": "Technology",
+      "region": "USA"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "valueNOK": 260000,
+      "sector": "Technology",
+      "region": "USA"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "valueNOK": 190000,
+      "sector": "Communication Services",
+      "region": "USA"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc.",
+      "valueNOK": 170000,
+      "sector": "Consumer Discretionary",
+      "region": "USA"
+    },
+    {
+      "ticker": "NVDA",
+      "name": "NVIDIA Corporation",
+      "valueNOK": 150000,
+      "sector": "Technology",
+      "region": "USA"
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "valueNOK": 120000,
+      "sector": "Healthcare",
+      "region": "USA"
+    },
+    {
+      "ticker": "BAC",
+      "name": "Bank of America Corp.",
+      "valueNOK": 100000,
+      "sector": "Financials",
+      "region": "USA"
+    },
+    {
+      "ticker": "V",
+      "name": "Visa Inc.",
+      "valueNOK": 90000,
+      "sector": "Financials",
+      "region": "USA"
+    },
+    {
+      "ticker": "EQNR",
+      "name": "Equinor ASA",
+      "valueNOK": 85000,
+      "sector": "Energy",
+      "region": "Norway"
+    },
+    {
+      "ticker": "NOVO-B",
+      "name": "Novo Nordisk A/S",
+      "valueNOK": 110000,
+      "sector": "Healthcare",
+      "region": "Europe"
+    },
+    {
+      "ticker": "ASML",
+      "name": "ASML Holding N.V.",
+      "valueNOK": 130000,
+      "sector": "Technology",
+      "region": "Europe"
+    },
+    {
+      "ticker": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing Co.",
+      "valueNOK": 125000,
+      "sector": "Technology",
+      "region": "Asia"
+    }
+  ]
+}
