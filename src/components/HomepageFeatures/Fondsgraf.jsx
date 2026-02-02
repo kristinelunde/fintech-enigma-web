@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import axios from "axios";
+import Link from "@docusaurus/Link";
+import oversikt from "../../../docs/Portefoljeoversikt/Fintech Enigma Portefoljesammensetning.mdx";
 
 import {
   Chart as ChartJS,
@@ -139,16 +141,37 @@ export default function Fondsgraf() {
   }, []);
 
   return (
-    <div style={{ maxWidth: 900, margin: "24px auto" }}>
-      {loading && <div>Laster graf…</div>}
-      {error && (
-        <div style={{ color: "crimson" }}>
-          Feil: {error}
+    <div>
+      <div style={{ maxWidth: 900, margin: "24px auto" }}>
+        {loading && <div>Laster graf…</div>}
+        {error && (
+          <div style={{ color: "crimson" }}>
+            Feil: {error}
+          </div>
+        )}
+        <div style={{ height: 420, display: loading ? "none" : "block" }}>
+          <canvas ref={canvasRef} />
         </div>
-      )}
-      <div style={{ height: 420, display: loading ? "none" : "block" }}>
-        <canvas ref={canvasRef} />
       </div>
+      
+      <div style={{ textAlign: "center", marginTop: 16 }}>
+        <Link
+          to="docs/Portefoljeoversikt/portefoljesammensetning"
+          style={{
+          display: "inline-block",
+          padding: "10px 16px",
+          backgroundColor: "#06ADF4",
+          color: "black",
+          borderRadius: 6,
+          textDecoration: "none",
+          fontWeight: 500,
+        }}
+        >
+          Se Porteføljen
+        </Link>
+      </div>
+
     </div>
+
   );
 }
